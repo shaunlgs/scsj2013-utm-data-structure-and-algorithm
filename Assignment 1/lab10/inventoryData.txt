@@ -1,0 +1,17 @@
+Roti Bakar
+RBA123
+2.00
+20
+1500.00
+
+Ikan Masin
+IMN321
+3.00
+10
+2000.00
+
+Burger Ayam
+BAK329
+4.00
+50
+3000.00

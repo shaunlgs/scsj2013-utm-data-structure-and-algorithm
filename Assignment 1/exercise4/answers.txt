@@ -1,0 +1,18 @@
+a) Pass by reference.
+b) A reference.
+c)
+Nilai bagi Nom 1 = 8
+Nilai bagi Nom 2 = -3
+Nom 1 dalam fungsi = 10
+Nom 2 dalam fungsi = 2
+Nilai bagi Nom 1 = 8
+Nilai bagi Nom 2 = -3
+
+d) void kira(nombor& N)
+e)
+Nilai bagi Nom 1 = 8
+Nilai bagi Nom 2 = -3
+Nom 1 dalam fungsi = 10
+Nom 2 dalam fungsi = 2
+Nilai bagi Nom 1 = 10
+Nilai bagi Nom 2 = 2

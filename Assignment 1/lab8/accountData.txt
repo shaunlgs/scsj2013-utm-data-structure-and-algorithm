@@ -1,0 +1,49 @@
+CIMB Bank account
+CDH322
+2
+300.00
+
+Maybank savings account
+DHD932
+3
+600.00
+
+Affin savings account
+HHA322
+2
+900.00
+
+Maybank savings account
+POD932
+3
+1700.00
+
+Bank Islam account
+JKK990
+8
+3220.00
+
+CIMB Bank account
+CDH322
+2
+1300.00
+
+Maybank savings account
+DHD932
+5
+1600.00
+
+Affin savings account
+HHA322
+6
+1900.00
+
+CIMB Bank account
+SDH322
+3
+1300.00
+
+Bank Islam account
+JKK990
+8
+3220.00

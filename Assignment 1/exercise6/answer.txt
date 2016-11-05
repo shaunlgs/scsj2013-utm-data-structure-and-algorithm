@@ -1,0 +1,3 @@
+a. Header file contains the class definitions. Implementation file contains the implementation of a class's methods. Client file contains the main function of a program.
+
+b. Programmers can use the functions implemented in implementation file without knowing how the member functions are implemented. Data abstraction focuses on the operations of data, not on the implementation of the operations.

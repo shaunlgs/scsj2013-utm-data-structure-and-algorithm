@@ -1,0 +1,8 @@
+Creating object with value: 3
+Creating object with value: 7
+Creating object with value: 10
+Creating object with value: 5
+Destroying object with value :5
+Destroying object with value :100
+Destroying object with value :49
+Destroying object with value :3
