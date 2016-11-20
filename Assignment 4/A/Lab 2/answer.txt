@@ -1,0 +1,17 @@
+b.
+nilai tengah:4  mula:0  akhir:3
+berjaya iaitu unsur nom[ 1]
+Cari nombor yang lain?:y
+
+c.
+nilai tengah:4  mula:5  akhir:9
+nilai tengah:7  mula:8  akhir:9
+berjaya iaitu unsur nom[ 8]
+Cari nombor yang lain?:y
+
+d.
+nilai tengah:4  mula:5  akhir:9
+nilai tengah:7  mula:8  akhir:9
+nilai tengah:8  mula:9  akhir:9
+nilai tengah:9  mula:10 akhir:9
+gagal

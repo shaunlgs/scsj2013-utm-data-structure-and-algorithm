@@ -1,0 +1,71 @@
+1.
+i.
+n-2+1 = n-1
+(n-1).1 = n-1
+log2n
+(log2n).1 = log2n
+
+Total executions: (n-1)+(n-1)+log2n+log2n=2n-2+2log2n
+
+Time complexity: O(n)
+
+ii.
+1
+n
+1+2+....+n = n.(n+1) / 2
+1+2+....+n = n.(n+1) / 2
+n.1
+
+Total executions = 1 + n + n.(n+1) / 2 + n.(n+1) / 2 + n = 1 + 3n + n^2
+
+Time complexity: O(n^2)
+
+iii.
+1
+n-1+1 = n
+n.1 = n
+2-1+1 = 2
+2.1 = 2
+
+Total executions = 1 + n + n + 2 + 2 = 2n + 5
+
+Time complexity: O(n)
+
+iv.
+0
+n-3+1 = n-2
+(n-2)(n-1+1) = (n-2)(n)
+(n-2)(n).1 = (n-2)(n)
+
+Total executions = (n-2)+2(n-2)(n) = n-2+2n^2-4n=2n^2-3n-2
+
+Time complexity: O(n^2)
+
+v.
+n-3+1 = n-2
+(n-2)(n-1+1) = (n-2)(n)
+(n-2)(n).1 = (n-2)(n)
+
+Total executions = (n-2)+2(n-2)(n) = n-2+2n^2-4n=2n^2-3n-2
+
+Time complexity: O(n^2)
+
+
+2.
+jumtoken = 0;
+while(jumtoken<120)
+{
+	cin >> token10;
+	jumtoken += 10;
+}
+cout << "TERIMA KASIH" << endl;
+
+1
+13
+12
+12
+1
+
+Number of steps = 1 + 13 + 12 + 12 + 1 = 39
+
+Time complexity: O(n)

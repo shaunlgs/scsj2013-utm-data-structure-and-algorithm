@@ -1,0 +1,7 @@
+a. There are two types of searches, namely internal and external. External search is only implemented if searching is done on a very large size of data. Half of the data need to be processed in RAM while half of the data is in the secondary storage. Internal search is implemented on a small size of data. All data can be loaded into RAM while the searching process is conducted.
+
+b.
+2, 5, 8, 10, 19, 21, 35
+2, 5, 8	middle = 10	19, 21, 35
+2	middle = 5	8, 19	middle = 21	35
+2 8 19 35

@@ -1,0 +1,14 @@
+b.
+Masukkan nombor yang ingin dicari :5
+berjaya iaitu unsur nom[ 3]
+Cari nombor yang lain?:y
+
+c.
+Masukkan nombor yang ingin dicari :4
+berjaya iaitu unsur nom[ 1]
+Cari nombor yang lain?:y
+
+d.
+Masukkan nombor yang ingin dicari :25
+gagal
+Cari nombor yang lain?:n

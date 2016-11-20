@@ -1,0 +1,1 @@
+c. The algorithm at b is more efficient. This is because it will terminate once the key is smaller than the item compared in array.

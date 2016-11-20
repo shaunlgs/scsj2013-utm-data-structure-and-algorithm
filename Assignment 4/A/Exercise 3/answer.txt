@@ -1,0 +1,4 @@
+a. 
+Sequential search examines each element in the array one by one (sequentially) and compares its value with the one being looked for, the search key. 
+Binary search improve the algorithm by removing as much of the data set as possible (half each step) so that the item is found more quickly. 
+However, the list must be sorted beforehand.

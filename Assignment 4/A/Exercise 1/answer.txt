@@ -1,0 +1,77 @@
+a.
+-------------------------------------
+Sequence search for 49
+int p;
+int index = -1;
+Enter for loop
+Enter if
+-------------------------------------
+Sequence search for 4
+int p;
+int index = -1;
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter if
+-------------------------------------
+Sequence search for 37
+int p;
+int index = -1;
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+Enter for loop
+
+b. The searching time for 49 is short because it is at the front of the array. The searchinf time for 4 is long because it is at the end of the array. Tht time complexity is O(n).
+c. break is used to break the for loop, enabling the program to continue. This is done after the search key is found in the array.
+e.
+-------------------------------------
+Sequence search for 49
+int p;
+int index = -1;
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Found
+-------------------------------------
+Sequence search for 4
+int p;
+int index = -1;
+Entering for loop
+Found
+-------------------------------------
+Sequence search for 37
+int p;
+int index = -1;
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Entering for loop
+Not in the list
+
+f. The sequential search on sorted list can terminate when the search key value is smaller than the item compared in the array. 

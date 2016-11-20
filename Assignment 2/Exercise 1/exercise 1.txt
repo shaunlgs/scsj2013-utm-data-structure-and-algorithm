@@ -1,0 +1,76 @@
+1. 
+i. a. Line 6, 8
+   b. Line 11
+ii. 5
+iii. Step 1: find fun1(5) = fun1(5-1) + fun1(5-2) = fun1(4) + fun1(3)
+    Step 2: find fun1(4) = fun1(3) + fun1(2)
+    Step 3: find fun1(3) = fun1(2) + fun1(1)
+    Step 4: find fun1(2) = fun1(1) + fun1(0)
+    Step 5: fun1(1) = 1, fun1(0) = 0
+    Step 6: Return, fun1(2) = 1 + 0 = 1
+    Step 7: Return, fun1(3) = 1 + 1 = 2
+    Step 8: Return, fun1(4) = 2 + 1 = 3
+    Step 9: Return, fun1(5) = 3 + 2 = 5
+
+2.
+i. 343
+Step 1: fun2(7, 3) = 7 * fun2(7, 2)
+Step 2: fun2(7, 2) = 7 * fun2(7, 1)
+Step 3: fun2(7, 1) = 7 * fun2(7, 0)
+Step 4: fun2(7, 0) = 1
+Step 5: Return, fun2(7, 1) = 7 * 1 = 7
+Step 6: Return fun2(7, 2) = 7 * 7 = 49
+Step 7: Return fun2(7, 3) = 7 * 49 = 343 
+ii. The recursive function breaks the problem into smaller version of itself. x is raised to power of n. 7 to the power of 3 is 343. The simple osolution is to use the iterative process, that is 7 * 7 * 7. Line 16 is the recursive step, Line 13 is the terminal case.
+
+3.
+ii. There is no terminal case in function_01 function.
+iii.
+Step 1: function_01_corrected(3), cout << "Calling function_01_corrected\n";
+Step 2: function_01_corrected(2), cout << "Calling function_01_corrected\n";
+Step 3: function_01_corrected(1), cout << "Calling function_01_corrected\n";
+Step 4: function_01_corrected(0), cout << "Calling function_01_corrected\n";
+
+4.
+i. 
+Output:
+Enter an integer value :6
+Value : 6
+Value : 4
+Value : 2
+
+Trace:
+Step 1: printIntegers(6), 6 >= 1, Value : 6
+Step 2: printIntegers(6-2) = printIntegers(4), 4 >= 1, Value : 4
+Step 3: printIntegers(4-2) = printIntegers(2), 2 >= 1, Value : 2
+Step 4: printIntegers(2-2) = printIntegers(0), 0 >= 1, false
+
+ii.
+Output:
+1
+
+Trace:
+Step 1: GCD(3, 8), 3 % 8 = 3, return GCD(8, 3 % 8) = GCD(8, 3)
+Step 2: GCD(8, 3), 8 % 3 = 2, return GCD(3, 8 % 3) = GCD(3, 2)
+Step 3: GCD(3, 2), 3 % 2 = 1, return GCD(2, 3 % 2) = GCD(2, 1)
+Step 4: GCD(2, 1), 2 % 1 = 0, return 1
+
+iii.
+Output:
+-256
+
+Trace:
+Step 1: Calc(5), 5 < 0, false, return Calc(4) * Calc(3)
+Step 2: Calc(4), 4 < 0, false, return Calc(3) * Calc(2)
+Step 3: Calc(3), 3 < 0, false, return Calc(2) * Calc(1)
+Step 4: Calc(2), 2 < 0, false, return Calc(1) * Calc(0)
+Step 5: Calc(1), 1 < 0, false, return Calc(0) * Calc(-1)
+Step 6: Calc(0), 0 < 0, false, return Calc(-1) * Calc(-2)
+Step 7: Calc(-1), -1 < 0, true, return -1
+Step 8: Calc(-2), -2 < 0, true, return -2
+Step 9: Calc(0) = -1 * -2 = 2
+Step 10: Calc(1) = 2 * -1 = -2
+Step 11: Calc(2) = -2 * 2 = -4
+Step 12: Calc(3) = -4 * -2 = 8
+Step 13: Calc(4) = 8 * -4 = -32
+Step 14: Calc(5) = -32 * 8 = -256

@@ -1,0 +1,2 @@
+c.
+Binary search is more efficient than sequential search. The number of comparisons of (a) is near n, while b) is 3. Time complexity of a) is O(n) while b) is O(log2n).
